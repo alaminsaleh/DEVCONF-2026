@@ -62,3 +62,45 @@ body {
     padding: 12px 35px;
 }
 
+/* Meet speakers section */
+.meet-speaker-container {
+    margin-top: 50px;
+    border: 1px solid red;
+}
+
+.speakers-card {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+/* .card-style {
+    width: 460px;
+} */
+
+.card-style img {
+    width: 100%;
+}
+
+.card-items {
+    margin: 12px;
+}
+
+.card-items h6 {
+    color: #2563EB;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.card-items h5 {
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.card-items p {
+    color: gray;
+    font-size: 14px;
+}
