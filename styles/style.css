@@ -194,6 +194,78 @@ h3 {
     color: #2563EB;
 }
 
+/* Why Attend DevConf 2026? */
+.why-attend {
+    margin: 100px 0px;
+    /* border: 2px solid red; */
+    background: #f4f8ff;
+    padding: 15px;
+}
+
+.attend-btn {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.attend-section-title {
+    text-align: center;
+}
+
+.attend-section-title h2 {
+    margin: 10px 0;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+/* .why-attend-grid {
+    border: 1px solid green;
+} */
+
+.why-attend-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+    /* border: 1px solid green; */
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.feature-card {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.feature-icon {
+    font-size: 4rem;
+}
+
+.feature-card h3 {
+    color: #2563EB;
+}
+
+.feature-card p {
+    color: gray;
+}
+
+.why-attend-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.why-attend-cta h3 {
+    color: black;
+    margin: 20px;
+}
+
 /* Footer section styles */
 .footer {
     background: #111827;
@@ -214,6 +286,13 @@ h3 {
     color: #fff;
     margin-bottom: 20px;
     font-size: 30px;
+}
+
+#quick-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-col h3 {
